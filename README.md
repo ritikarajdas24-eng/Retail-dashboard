@@ -104,7 +104,7 @@ The dashboard provides a unified view of retail operations, helping stakeholders
 ![Sales Overview](https://github.com/ritikarajdas24-eng/Retail-dashboard/blob/main/Sales%20Overview.png)
 
 ## Customer Insights
-![Customer Insights]()
+![Customer Insights](https://github.com/ritikarajdas24-eng/Retail-dashboard/blob/main/Customer%20insight.png)
 
 ## Product & Category Analysis
 ![Product & Category](Images/Product%20%26%20Category.png)
