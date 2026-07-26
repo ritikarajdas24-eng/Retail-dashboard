@@ -1,4 +1,4 @@
-# Retail-dashboard
+# Retail-Analytics-Dashboard
 # 🛍️ Retail Sales, Inventory & Customer Insights Dashboard
 
 An interactive Power BI dashboard designed to analyse retail business performance across sales, inventory, customers, products, and stores. The dashboard transforms transactional data into meaningful insights, enabling stakeholders to monitor KPIs, identify trends, and make informed business decisions.
