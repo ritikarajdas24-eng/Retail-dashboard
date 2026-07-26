@@ -110,7 +110,7 @@ The dashboard provides a unified view of retail operations, helping stakeholders
 ![Product & Category](https://github.com/ritikarajdas24-eng/Retail-dashboard/blob/main/Product%20%26%20Category.png)
 
 ## Inventory & Stock
-![Inventory & Stock](Images/Inventory%20%26%20stock.png)
+![Inventory & Stock](https://github.com/ritikarajdas24-eng/Retail-dashboard/blob/main/Inventory%20%26%20stock.png)
 
 ## Store Performance
 ![Store Performance](Images/Store%20performance.png)
