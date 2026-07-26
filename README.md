@@ -1,103 +1,39 @@
-# Retail-Analytics-Dashboard
-# 🛍️ Retail Sales, Inventory & Customer Insights Dashboard
+# Retail Sales, Inventory & Customer Insights Dashboard
 
-An interactive Power BI dashboard designed to analyse retail business performance across sales, inventory, customers, products, and stores. The dashboard transforms transactional data into meaningful insights, enabling stakeholders to monitor KPIs, identify trends, and make informed business decisions.
+A Power BI dashboard I built to track retail performance across sales, inventory, customers, products, and stores — pulling scattered transactional data into one report so stakeholders can actually see what's happening instead of digging through five separate spreadsheets.
 
----
+## Why this project
 
-# 📌 Project Overview
+Most retail teams have their sales numbers in one place, inventory in another, and customer data somewhere else entirely. That makes it slow to spot trends or catch problems early. I wanted to see if I could pull all of it into a single model and build something a store manager or ops lead could actually use day to day.
 
-Retail businesses generate large volumes of data every day, making it difficult to track performance across different business functions. This dashboard consolidates sales, customer, inventory, product, and store data into a single interactive report, providing a comprehensive view of business performance.
+## Tech stack
 
----
+- Power BI Desktop for the dashboard itself
+- Power Query for cleaning and shaping the raw data
+- DAX for the KPIs, custom measures, and time-based calculations
+- A star schema data model (fact and dimension tables)
+- Excel for building and prepping the source dataset
+- MySQL for querying and validating the data before it went into Power BI
 
-# 🛠️ Tech Stack
+## Dataset
 
-The dashboard was built using the following tools and technologies:
+Simulated retail data covering sales transactions, inventory records, customer information, a product catalogue, store details, and a calendar table.
 
-- **Power BI Desktop** – Interactive dashboard development and reporting.
-- **Power Query** – Data cleaning, transformation, and preparation.
-- **DAX (Data Analysis Expressions)** – Custom measures, KPIs, and time intelligence calculations.
-- **Data Modelling** – Star schema with fact and dimension tables for efficient analysis.
-- **Microsoft Excel** – Dataset creation and preprocessing.
-- **MySQL** – Data querying and validation.
+## What's in the dashboard
 
----
+**Sales Overview** — sales, profit, and quantity KPIs, monthly trends, category and subcategory breakdowns.
 
-# 📂 Dataset
+**Customer Insights** — demographics, loyalty tier distribution, repeat customer rates, regional patterns.
 
-The project uses a simulated retail dataset consisting of:
+**Product & Category Analysis** — brand performance, category comparisons, average selling price, quantity sold.
 
-- Sales Transactions
-- Inventory Records
-- Customer Information
-- Product Catalogue
-- Store Details
-- Calendar Table
+**Store Performance** — store-level and regional sales, manager performance, a geographic view of where sales are strongest.
 
----
+**Inventory & Stock** — opening and closing stock, availability, purchase quantities, and where stock-outs are happening.
 
-# ✨ Dashboard Highlights
+## What it's for
 
-### **Business Problem**
-
-Retail organisations often struggle to monitor sales, inventory, customer behaviour, and store performance from multiple disconnected data sources. Without a centralised reporting system, identifying trends and making timely business decisions becomes challenging.
-
-### **Dashboard Goal**
-
-Build an interactive Business Intelligence solution that enables users to:
-
-- Monitor key business KPIs
-- Analyse customer purchasing behaviour
-- Track inventory performance
-- Compare store and regional performance
-- Identify top-performing products and categories
-
-### **Key Dashboard Pages**
-
-📊 **Sales Overview**
-- Sales, Profit & Quantity KPIs
-- Monthly Sales Trends
-- Category & Subcategory Analysis
-
-👥 **Customer Insights**
-- Customer Demographics
-- Loyalty Tier Distribution
-- Repeat Customers
-- Regional Customer Analysis
-
-📦 **Product & Category Analysis**
-- Brand Performance
-- Product Categories
-- Average Selling Price
-- Product Quantity Analysis
-
-🏪 **Store Performance**
-- Store-wise Sales
-- Regional Performance
-- Manager Performance
-- Geographic Sales Distribution
-
-📦 **Inventory & Stock**
-- Opening & Closing Stock
-- Stock Availability
-- Purchase Quantity
-- Stock-out Analysis
-
----
-
-# 📈 Business Impact
-
-The dashboard provides a unified view of retail operations, helping stakeholders:
-
-- Monitor business performance in real time
-- Identify high-performing products and stores
-- Optimise inventory levels
-- Understand customer purchasing patterns
-- Support data-driven business decisions
-
----
-
+The point was to build something that answers real questions fast: which stores and products are actually performing, where inventory is about to run out, what customers keep coming back, and how regions compare against each other — all from one place instead of piecing it together manually.
 # 📷 Dashboard Preview
 
 ## Sales Overview
